@@ -33,15 +33,15 @@ body{
 } 
 
 
-/* .container{
+.container{
     padding: 5rem 0  10rem 0;
     position: relative;
     width:100%;
     height: 100vh;
     height: 70vh;
-} */
+}
 
-/* .back-video{
+.back-video{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -52,7 +52,7 @@ body{
     position: fixed;
     inset: 0 0 0 0;
     background-color: #526bd82d;
-} */
+}
 
 
 
@@ -181,16 +181,26 @@ nav li:first-child:hover{
     -webkit-text-fill-color: transparent ;
 }
 
+
 .hero h1{
      font-size: 4.5rem;
+     margin-top: -10px;
      font-weight: 600;
+     animation: hu__hu__ infinite 2s ease-in-out;
+     color: var(--color4);
 }
+
+
+@keyframes hu__hu__ {
+    50% { transform: translateY(15px) }
+}
+
 
 .hero p{
     font-size: 1.3rem;
 }
 
-.hero h1 span::before{
+/* .hero h1 span::before{
     content: attr(data-text);
     position: absolute;
     width: 0;
@@ -211,7 +221,7 @@ nav li:first-child:hover{
     70%,90%{
         width:42.5%;
     }
-}
+} */
 
 
 .hero button{
@@ -518,7 +528,11 @@ nav li:first-child:hover{
     background-color: black;
 }
 
-
+.home-skiles h1{
+    background: linear-gradient(50deg,var(--color4)15%,var(--color5)85%);
+    -webkit-background-clip:Text;
+    -webkit-text-fill-color: transparent ;
+}
 
 .skiles{
     /* background:linear-gradient( #38f8031a,#00ff7731) ; */
