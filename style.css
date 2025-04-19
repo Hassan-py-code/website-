@@ -328,7 +328,7 @@ nav li:first-child:hover{
 /* Creat about me */
 
 .about-home{
-   background-color: black;
+   padding: 3rem 0 3rem 0;
   
 }
 .about-div{
@@ -574,12 +574,13 @@ nav li:first-child:hover{
     align-items: center;
     justify-content:center;
     flex-wrap: wrap;
+    margin-left: 5px;
 }
 
 
 
 
-.skiles-now .Languge  h2 a{
+.skiles-now .Languge  h4 a{
      font-weight: 100;
      text-decoration: none;
      font-size: 1rem;
@@ -588,16 +589,15 @@ nav li:first-child:hover{
      color: var(--color1);
 }
 
-.skiles-now .Languge h2 .color-langue{
+.skiles-now .Languge h4 .color-langue{
     font-weight: 200;
     background: linear-gradient(90deg,var(--color5) 50% ,var(--color4) 50%);
     -webkit-background-clip:Text;
     -webkit-text-fill-color: transparent ;
 }
 
-.skiles-now .Languge h2{
-    font-weight: 100;
-    font-size: 1.2rem;
+.skiles-now .Languge h4{
+    font-size: 0.9rem;
 }
 
 
@@ -615,13 +615,8 @@ nav li:first-child:hover{
         margin-left: 0;
      }
 
-     .skiles-now .Languge h2{
-        font-weight: 200;
-        font-size: 1rem;
-    }
-    .skiles-now .Languge  h2 a{
+    .skiles-now .Languge  h4 a{
         font-size: 0.8rem;
-        font-weight: 150;
     }
     
 }
@@ -635,14 +630,6 @@ nav li:first-child:hover{
         margin-left: 0;
      }
 
-     .skiles-now .Languge h2{
-        font-weight: 250;
-        font-size: 1rem;
-    }
-    .skiles-now .Languge  h2 a{
-        font-size: 0.8rem;
-        font-weight: 170;
-    }
     
 }
 
@@ -675,11 +662,11 @@ nav li:first-child:hover{
         margin-left: 20px;
      }
 
-     .skiles-now .Languge h2{
+     .skiles-now .Languge h4{
         font-weight: 100;
         font-size: 1.2rem;
     }
-    .skiles-now .Languge  h2 a{
+    .skiles-now .Languge  h4 a{
         font-size: 1rem;
     }
     
@@ -694,11 +681,11 @@ nav li:first-child:hover{
         margin-left: 25px;
      }
 
-     .skiles-now .Languge h2{
+     .skiles-now .Languge h4{
         font-weight: 100;
         font-size: 1.4rem;
     }
-    .skiles-now .Languge  h2 a{
+    .skiles-now .Languge  h4 a{
         font-size: 1.3rem;
     }
     
