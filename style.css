@@ -616,11 +616,12 @@ nav li:first-child:hover{
      }
 
      .skiles-now .Languge h2{
-        font-weight: 100;
+        font-weight: 200;
         font-size: 1rem;
     }
     .skiles-now .Languge  h2 a{
         font-size: 0.8rem;
+        font-weight: 150;
     }
     
 }
@@ -633,6 +634,15 @@ nav li:first-child:hover{
      .skiles-now{
         margin-left: 0;
      }
+
+     .skiles-now .Languge h2{
+        font-weight: 250;
+        font-size: 1rem;
+    }
+    .skiles-now .Languge  h2 a{
+        font-size: 0.8rem;
+        font-weight: 170;
+    }
     
 }
 
@@ -646,11 +656,12 @@ nav li:first-child:hover{
      }
 
      .skiles-now .Languge h2{
-        font-weight: 100;
+        font-weight: 280;
         font-size: 1.2rem;
     }
     .skiles-now .Languge  h2 a{
         font-size: 0.9rem;
+        font-weight: 175;
     }
     
 }
