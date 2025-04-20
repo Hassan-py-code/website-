@@ -741,7 +741,7 @@ nav li:first-child:hover{
 }
 
 
-@media screen and (min-width:300px) and (max-width:480px) {
+@media screen and (min-width:300px) and (max-width:320px) {
     .my-projects{
         flex-direction: column;
     }
@@ -749,6 +749,27 @@ nav li:first-child:hover{
     .projects img{
         margin-top: 0;
         width: 200px;
+    }
+
+    .projects{
+        border: 2px solid var(--color1);
+        margin-top: 20px;
+    }
+    
+
+
+    
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .my-projects{
+        flex-direction: column;
+    }
+
+    .projects img{
+        margin-top: 0;
+        width: 250px;
     }
 
     .projects{
