@@ -981,6 +981,7 @@ nav li:first-child:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .home a{
