@@ -113,9 +113,9 @@ nav li:first-child:hover{
     top: 0;
     right: 0;
     height: 100vh;
-    width: 250px;
+    /* width: 150px; */
     z-index: 999;
-    background-color: #1cfc3a3a;
+    background-color: #1cfc3a19;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px #0000001a;
     display: none;
@@ -160,6 +160,8 @@ nav li:first-child:hover{
 
 .content{
     text-align: center;
+    max-width: 650px;  /* Maximum width of the div */  
+    padding: 40px; 
 }
 
 .hero h3 span{
@@ -186,29 +188,6 @@ nav li:first-child:hover{
 .hero p{
     font-size: 1.3rem;
 }
-
-/* .hero h1 span::before{
-    content: attr(data-text);
-    position: absolute;
-    width: 0;
-    border-right: 2px solid var(--color1);
-    background: linear-gradient(90deg,var(--color3)15%,var(--color5)85%);
-    -webkit-background-clip:Text;
-    -webkit-text-fill-color: transparent ;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: fill-text 4s linear infinite;
-}
-
-@keyframes fill-text{
-    10%,100%{
-        width: 0;
-    }
-
-    70%,90%{
-        width:42.5%;
-    }
-} */
 
 
 .hero button{
@@ -277,6 +256,7 @@ nav li:first-child:hover{
 
 
 /* MY PROJECTS */
+
 .projects-home h1{
     text-align: center;
     background: linear-gradient(50deg,var(--color4)15%,var(--color5)85%);
@@ -303,6 +283,7 @@ nav li:first-child:hover{
  background-color: var(--color1);
  transition: 0.3s ease;
  padding: 20px;
+ margin-top: 15px;
 }
 
 .projects:hover{
@@ -984,7 +965,7 @@ nav li:first-child:hover{
     flex-wrap: wrap;
 }
 
-.home a{
+.home p{
     color: var(--color1);
     display: block;
     text-decoration: none;
@@ -992,7 +973,7 @@ nav li:first-child:hover{
     font-size: 1.1rem;
 }
 
-.icon-footer a{
+.icon-footer p{
     color: var(--color1);
     display: block;
     text-decoration: none;
@@ -1000,7 +981,7 @@ nav li:first-child:hover{
     font-size: 1.1rem;
 }
 
-.icon-footer a i{
+.icon-footer p i{
     font-size: 1.4rem;
 }
 
@@ -1029,7 +1010,7 @@ nav li:first-child:hover{
         padding: 2rem 0 2rem 0;
         margin-left: 30px;
     }
-    .icon-footer a i{
+    .icon-footer p i{
         font-size: 1.2rem;
     }
      .media {
@@ -1045,7 +1026,7 @@ nav li:first-child:hover{
 @media screen  and (min-width:1300px) and (max-width:1700px){
     
 
-   .icon-footer a i{
+   .icon-footer p i{
        font-size: 1.5rem;
    }
     .media {
